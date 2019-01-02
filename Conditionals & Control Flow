@@ -6,13 +6,13 @@ My favorite store is TARGET that I like target @ things! so I am gonna use the t
 
 def target():
 
-print "You have just entered the TARGET!"
-print "Do you take the shopping cart or the basket? 
-answer = raw_input("Type shopping cart or basket and hit 'Enter'.").lower()
+    print "You have just entered the TARGET!"
+    print "Do you take the shopping cart or the basket? 
+    answer = raw_input("Type shopping cart or basket and hit 'Enter'.").lower()
 
-if answer == "shopping cart" or answer == "s":
+    if answer == "shopping cart" or answer == "s":
     print "I love my shopping cart, go TARGET!"
-elif answer == "basket" or answer == "b":
+    elif answer == "basket" or answer == "b":
     print "Just buy what you need and SAVE YOUR MONEY!"
 else:
     print "Please choose shopping cart or basket! you did not pick anything!" 
