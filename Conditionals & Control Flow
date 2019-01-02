@@ -12,9 +12,13 @@ def target():
 
     if answer == "shopping cart" or answer == "s":
     print "I love my shopping cart, go TARGET!"
+    
     elif answer == "basket" or answer == "b":
     print "Just buy what you need and SAVE YOUR MONEY!"
-else:
+   
+    else:
     print "Please choose shopping cart or basket! you did not pick anything!" 
+   
     target()
+
 target()
