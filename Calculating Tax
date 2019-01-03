@@ -1,0 +1,17 @@
+#Calculating Tax with Python 
+
+def tax(bill):
+    """Adds 7.25% tax to a taxi bill."""
+    bill *= 1.075
+    print "with tax: %f" % bill
+    return bill
+    
+def tip(bill):
+    """Adds 20% tip to a taxi bill."""
+    bill *= 1.20
+    print "with tip: %f" % bill
+    return bill
+    
+taxi_fee = 100
+taxi_with_tax = tax(taxi_fee)
+taxi_with_tip = tip(taxi_with_tax) 
