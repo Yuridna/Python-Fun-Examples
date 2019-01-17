@@ -1,0 +1,15 @@
+# Python-Fun-Examples
+Study Machine Learning with Python, SAMPLES
+
+phrase = 'A phone in the hand..."
+
+for char in phrase:
+    if char == "A" or char == 'a'"
+        print 'X',
+    else:
+        print char,
+print
+
+
+
+# it will be printed out : X phone in the hXnd...
