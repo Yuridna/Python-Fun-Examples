@@ -1,0 +1,14 @@
+def anti_vowel(text):
+    result = ""
+    vowels = "aeiouAEIOU"
+    for char in text:
+        if char not in vowels:
+            result += char
+    return result
+print anti_volwer("hello yurina")
+
+# result will be appeared "hll yrn"
+
+# when I was little, i guess i was 4 or 5 my mom asked me whats vowel??? say it again! i said
+# at ee- aut Oo- U-
+# and then, my mom forced me to sing the vowel song more than 100 times 
